@@ -1,0 +1,16 @@
+C:\Users\Usuario\Downloads\gestion-commandes-refonte\gestion-commandes\src\main\java\ma\fstt\controller\CharsetFilter.java
+C:\Users\Usuario\Downloads\gestion-commandes-refonte\gestion-commandes\src\main\java\ma\fstt\controller\ClientServlet.java
+C:\Users\Usuario\Downloads\gestion-commandes-refonte\gestion-commandes\src\main\java\ma\fstt\controller\CommandeServlet.java
+C:\Users\Usuario\Downloads\gestion-commandes-refonte\gestion-commandes\src\main\java\ma\fstt\controller\ProduitServlet.java
+C:\Users\Usuario\Downloads\gestion-commandes-refonte\gestion-commandes\src\main\java\ma\fstt\dao\ClientDao.java
+C:\Users\Usuario\Downloads\gestion-commandes-refonte\gestion-commandes\src\main\java\ma\fstt\dao\CommandeDao.java
+C:\Users\Usuario\Downloads\gestion-commandes-refonte\gestion-commandes\src\main\java\ma\fstt\dao\DBConnection.java
+C:\Users\Usuario\Downloads\gestion-commandes-refonte\gestion-commandes\src\main\java\ma\fstt\dao\ProduitDao.java
+C:\Users\Usuario\Downloads\gestion-commandes-refonte\gestion-commandes\src\main\java\ma\fstt\entities\Client.java
+C:\Users\Usuario\Downloads\gestion-commandes-refonte\gestion-commandes\src\main\java\ma\fstt\entities\Commande.java
+C:\Users\Usuario\Downloads\gestion-commandes-refonte\gestion-commandes\src\main\java\ma\fstt\entities\LigneCommande.java
+C:\Users\Usuario\Downloads\gestion-commandes-refonte\gestion-commandes\src\main\java\ma\fstt\entities\Produit.java
+C:\Users\Usuario\Downloads\gestion-commandes-refonte\gestion-commandes\src\main\java\ma\fstt\service\ClientService.java
+C:\Users\Usuario\Downloads\gestion-commandes-refonte\gestion-commandes\src\main\java\ma\fstt\service\CommandeService.java
+C:\Users\Usuario\Downloads\gestion-commandes-refonte\gestion-commandes\src\main\java\ma\fstt\service\GenericService.java
+C:\Users\Usuario\Downloads\gestion-commandes-refonte\gestion-commandes\src\main\java\ma\fstt\service\ProduitService.java

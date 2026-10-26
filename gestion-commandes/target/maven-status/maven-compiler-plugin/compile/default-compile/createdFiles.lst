@@ -1,0 +1,16 @@
+ma\fstt\dao\CommandeDao.class
+ma\fstt\controller\ProduitServlet.class
+ma\fstt\dao\ProduitDao.class
+ma\fstt\service\CommandeService.class
+ma\fstt\entities\LigneCommande.class
+ma\fstt\controller\ClientServlet.class
+ma\fstt\service\ClientService.class
+ma\fstt\entities\Commande.class
+ma\fstt\dao\ClientDao.class
+ma\fstt\controller\CommandeServlet.class
+ma\fstt\entities\Produit.class
+ma\fstt\dao\DBConnection.class
+ma\fstt\controller\CharsetFilter.class
+ma\fstt\entities\Client.class
+ma\fstt\service\ProduitService.class
+ma\fstt\service\GenericService.class

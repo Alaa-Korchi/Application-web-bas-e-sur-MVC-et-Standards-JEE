@@ -1,0 +1,41 @@
+    </main>
+    <footer class="app-footer"><span>Commande Studio</span><span>Gestion simple. Visibilité claire.</span></footer>
+  </section>
+</div>
+<script>
+(function () {
+  document.querySelectorAll('[data-table-search]').forEach(function (input) {
+    input.addEventListener('input', function () {
+      var table = document.querySelector(input.getAttribute('data-table-search'));
+      if (!table) return;
+      var term = input.value.toLocaleLowerCase('fr').trim();
+      var rows = table.querySelectorAll('tbody tr[data-searchable]');
+      var visible = 0;
+      rows.forEach(function (row) {
+        var show = row.textContent.toLocaleLowerCase('fr').includes(term);
+        row.hidden = !show;
+        if (show) visible++;
+      });
+      var counter = document.querySelector(input.getAttribute('data-count-target') || '');
+      if (counter) counter.textContent = visible + (visible > 1 ? ' résultats' : ' résultat');
+    });
+  });
+  document.querySelectorAll('form[data-confirm]').forEach(function (form) {
+    form.addEventListener('submit', function (event) {
+      if (!window.confirm(form.getAttribute('data-confirm'))) event.preventDefault();
+    });
+  });
+  document.querySelectorAll('form[data-loading]').forEach(function (form) {
+    form.addEventListener('submit', function () {
+      var button = form.querySelector('[type="submit"]');
+      if (button && form.checkValidity()) {
+        button.disabled = true;
+        button.dataset.originalText = button.textContent;
+        button.textContent = 'Enregistrement…';
+      }
+    });
+  });
+})();
+</script>
+</body>
+</html>
